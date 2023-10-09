@@ -25,9 +25,9 @@ async def start(client, message):
                 InlineKeyboardButton(' ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ  ', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],
             [
-                InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇs', url=MY_CHNL),
+                InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇs', url='https://t.me/Netflixvilla_india'),
               
-                InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ', url=MY_GRP)
+                InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ', url='https://t.me/Netflixvilla_india')
             ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply(script.START_TXT.format(message.from_user.mention if message.from_user else message.chat.title, temp.U_NAME, temp.B_NAME), reply_markup=reply_markup)
@@ -45,11 +45,11 @@ async def start(client, message):
                 InlineKeyboardButton('➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕ ', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],
             [
-                InlineKeyboardButton('🎭 ᴍʏ ɢʀᴏᴜᴘ 🎭', url=MY_CHNL),
+                InlineKeyboardButton('🎭 ᴍʏ ɢʀᴏᴜᴘ 🎭', url='https://t.me/Netflixvilla_india'),
               
-                InlineKeyboardButton('🔰 ᴍʏ ᴄʜᴀɴɴᴇʟ 🔰', url=MY_GRP)
+                InlineKeyboardButton('🔰 ᴍʏ ᴄʜᴀɴɴᴇʟ 🔰', url='https://t.me/Netflixvilla_india')
             ],[
-                    InlineKeyboardButton('🔱 ᴊᴏɪɴ ᴛʜɪs ᴄʜᴀɴɴᴇʟ ᴛᴏ ᴜsᴇ ᴍᴇ 🔱',url=UPDT_CHNL)
+                    InlineKeyboardButton('🔱 ᴊᴏɪɴ ᴛʜɪs ᴄʜᴀɴɴᴇʟ ᴛᴏ ᴜsᴇ ᴍᴇ 🔱',url='https://t.me/Netflixvilla_india')
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -92,9 +92,9 @@ async def start(client, message):
         buttons = [[
                 InlineKeyboardButton('➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕ ', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-                InlineKeyboardButton('🎭 ᴍʏ ɢʀᴏᴜᴘ 🎭', url=MY_GRP),              
-                InlineKeyboardButton('🔰 ᴍʏ ᴄʜᴀɴɴᴇʟ🔰', url=MY_CHNL)
-            ],[ InlineKeyboardButton('🔱 ᴊᴏɪɴ ᴍʏ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ 🔱', url=UPDT_CHNL)] ]
+                InlineKeyboardButton('🎭 ᴍʏ ɢʀᴏᴜᴘ 🎭', url='https://t.me/Netflixvilla_india'),              
+                InlineKeyboardButton('🔰 ᴍʏ ᴄʜᴀɴɴᴇʟ🔰', url='https://t.me/Netflixvilla_india'),
+            ],[ InlineKeyboardButton('🔱 ᴊᴏɪɴ ᴍʏ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ 🔱', url='https://t.me/Netflixvilla_india'] ]
         
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
